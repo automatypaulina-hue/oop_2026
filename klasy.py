@@ -25,6 +25,8 @@ class Czlowiek:
             print("kobieta")
 
     def przedstaw(self, osoba):
+        def __str__(self):
+            
         print(f"Oto {osoba.imie}")
 class Dziecko(Czlowiek):
     def baw_sie(self):
